@@ -1,0 +1,20 @@
+syntax = "proto3";
+package pt.ulisboa.tecnico.classes.contract.classserver;
+
+import "ClassesDefinitions.proto";
+
+// ClassServer -> ClassServer Service
+
+message PropagateModificationsRequest {
+  uint32 serverId = 1;
+  repeated VectorClockMessage vectorClock = 2;
+  repeated string updateLog = 3;
+}
+
+message PropagateModificationsResponse {
+  ResponseCode code = 1;
+}
+
+service ClassServerService {
+  rpc propagateModifications(PropagateModificationsRequest) returns (PropagateModificationsResponse);
+}

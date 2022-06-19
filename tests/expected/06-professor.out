@@ -1,0 +1,33 @@
+> ClassState{
+	capacity=1,
+	openEnrollments=true,
+	enrolled=[
+		Student{
+			Id='aluno1001',
+			Name='Manuel Goucha'
+		}],
+	discarded=[
+		Student{
+			Id='aluno1000',
+			Name='Cristina Ferreira'
+		}]
+}
+
+> The action completed successfully.
+
+> ClassState{
+	capacity=1,
+	openEnrollments=false,
+	enrolled=[
+		Student{
+			Id='aluno1001',
+			Name='Manuel Goucha'
+		}],
+	discarded=[
+		Student{
+			Id='aluno1000',
+			Name='Cristina Ferreira'
+		}]
+}
+
+> 

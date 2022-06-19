@@ -1,0 +1,11 @@
+/home/manittas/A42-Turmas/Contract/target/generated-sources/protobuf/java/pt/ulisboa/tecnico/classes/contract/student/StudentClassServer.java
+/home/manittas/A42-Turmas/Contract/target/generated-sources/protobuf/grpc-java/pt/ulisboa/tecnico/classes/contract/admin/AdminServiceGrpc.java
+/home/manittas/A42-Turmas/Contract/target/generated-sources/protobuf/java/pt/ulisboa/tecnico/classes/contract/classserver/ClassServerClassServer.java
+/home/manittas/A42-Turmas/Contract/target/generated-sources/protobuf/grpc-java/pt/ulisboa/tecnico/classes/contract/professor/ProfessorServiceGrpc.java
+/home/manittas/A42-Turmas/Contract/target/generated-sources/protobuf/java/pt/ulisboa/tecnico/classes/contract/admin/AdminClassServer.java
+/home/manittas/A42-Turmas/Contract/target/generated-sources/protobuf/grpc-java/pt/ulisboa/tecnico/classes/contract/classserver/ClassServerServiceGrpc.java
+/home/manittas/A42-Turmas/Contract/target/generated-sources/protobuf/java/pt/ulisboa/tecnico/classes/contract/ClassesDefinitions.java
+/home/manittas/A42-Turmas/Contract/target/generated-sources/protobuf/java/pt/ulisboa/tecnico/classes/contract/naming/ClassServerNamingServer.java
+/home/manittas/A42-Turmas/Contract/target/generated-sources/protobuf/java/pt/ulisboa/tecnico/classes/contract/professor/ProfessorClassServer.java
+/home/manittas/A42-Turmas/Contract/target/generated-sources/protobuf/grpc-java/pt/ulisboa/tecnico/classes/contract/student/StudentServiceGrpc.java
+/home/manittas/A42-Turmas/Contract/target/generated-sources/protobuf/grpc-java/pt/ulisboa/tecnico/classes/contract/naming/NamingServerServiceGrpc.java

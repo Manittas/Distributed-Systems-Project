@@ -1,0 +1,31 @@
+syntax = "proto3";
+package pt.ulisboa.tecnico.classes.contract.student;
+
+import "ClassesDefinitions.proto";
+
+// Student -> ClassServer Service
+
+message ListClassRequest {
+  repeated VectorClockMessage vectorClock = 1;
+}
+
+message ListClassResponse {
+  ResponseCode code = 1;
+  ClassState classState = 2;
+  repeated VectorClockMessage vectorClock = 3;
+}
+
+message EnrollRequest {
+  Student student = 1;
+  repeated VectorClockMessage vectorClock = 2;
+}
+
+message EnrollResponse {
+  ResponseCode code = 1;
+  repeated VectorClockMessage vectorClock = 2;
+}
+
+service StudentService {
+  rpc listClass(ListClassRequest) returns (ListClassResponse);
+  rpc enroll(EnrollRequest) returns (EnrollResponse);
+}

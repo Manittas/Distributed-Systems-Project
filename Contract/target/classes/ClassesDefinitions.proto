@@ -1,0 +1,48 @@
+syntax = "proto3";
+package pt.ulisboa.tecnico.classes.contract;
+
+// Classes System Definitions
+
+message Student {
+  string studentId = 1;
+  string studentName = 2;
+}
+
+message ClassState {
+  int32 capacity = 1;
+  bool openEnrollments = 2;
+  repeated Student enrolled = 3;
+  repeated Student discarded = 4;
+}
+
+message RegistServer {
+  string host = 1;
+  int32 port = 2;
+}
+
+message LookupServer {
+  string host = 1;
+  int32 port = 2;
+  uint32 id = 3;
+}
+
+message VectorClockMessage {
+  int32 id = 1;
+  int32 value = 2;
+}
+
+enum ResponseCode {
+  OK = 0;
+  NON_EXISTING_STUDENT = 1;
+  FULL_CLASS = 2;
+  STUDENT_ALREADY_ENROLLED = 3;
+  ENROLLMENTS_ALREADY_OPENED = 4;
+  ENROLLMENTS_ALREADY_CLOSED = 5;
+  INACTIVE_SERVER = 6;
+  WRITING_NOT_SUPPORTED = 7;
+  ARGUMENT_NOT_VALID = 8;
+  NON_EXISTING_SERVER = 9;
+  GOSSIP_OFF = 10;
+  GOSSIP_OCCURRING = 11;
+  INCONSISTENT_STATE = 12;
+}

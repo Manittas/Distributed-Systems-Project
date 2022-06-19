@@ -1,0 +1,25 @@
+> ClassState{
+	capacity=1,
+	openEnrollments=true,
+	enrolled=[
+		Student{
+			Id='aluno1000',
+			Name='Cristina Ferreira'
+		}],
+	discarded=[]
+}
+
+> The class has reached its maximum capacity.
+
+> ClassState{
+	capacity=1,
+	openEnrollments=true,
+	enrolled=[
+		Student{
+			Id='aluno1000',
+			Name='Cristina Ferreira'
+		}],
+	discarded=[]
+}
+
+> 

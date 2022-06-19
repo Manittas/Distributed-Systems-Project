@@ -1,0 +1,9 @@
+/home/manittas/A42-Turmas/NamingServer/src/main/java/pt/ulisboa/tecnico/classes/namingserver/NamingServices.java
+/home/manittas/A42-Turmas/NamingServer/src/main/java/pt/ulisboa/tecnico/classes/namingserver/ServerEntry.java
+/home/manittas/A42-Turmas/NamingServer/src/main/java/pt/ulisboa/tecnico/classes/namingserver/Commands/LookupCommand.java
+/home/manittas/A42-Turmas/NamingServer/src/main/java/pt/ulisboa/tecnico/classes/namingserver/ServiceEntry.java
+/home/manittas/A42-Turmas/NamingServer/src/main/java/pt/ulisboa/tecnico/classes/namingserver/NamingServerServiceImpl.java
+/home/manittas/A42-Turmas/NamingServer/src/main/java/pt/ulisboa/tecnico/classes/namingserver/Commands/RegisterCommand.java
+/home/manittas/A42-Turmas/NamingServer/src/main/java/pt/ulisboa/tecnico/classes/namingserver/Commands/Command.java
+/home/manittas/A42-Turmas/NamingServer/src/main/java/pt/ulisboa/tecnico/classes/namingserver/NamingServer.java
+/home/manittas/A42-Turmas/NamingServer/src/main/java/pt/ulisboa/tecnico/classes/namingserver/Commands/DeleteCommand.java

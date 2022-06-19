@@ -1,0 +1,52 @@
+syntax = "proto3";
+package pt.ulisboa.tecnico.classes.contract.professor;
+
+import "ClassesDefinitions.proto";
+
+// Professor -> ClassServer Service
+
+message OpenEnrollmentsRequest {
+  int32 capacity = 1;
+  repeated VectorClockMessage vectorClock = 2;
+}
+
+message OpenEnrollmentsResponse {
+  ResponseCode code = 1;
+  repeated VectorClockMessage vectorClock = 2;
+}
+
+message CloseEnrollmentsRequest {
+  repeated VectorClockMessage vectorClock = 1;
+}
+
+message CloseEnrollmentsResponse {
+  ResponseCode code = 1;
+  repeated VectorClockMessage vectorClock = 2;
+}
+
+message ListClassRequest {
+  repeated VectorClockMessage vectorClock = 1;
+}
+
+message ListClassResponse {
+  ResponseCode code = 1;
+  ClassState classState = 2;
+  repeated VectorClockMessage vectorClock = 3;
+}
+
+message CancelEnrollmentRequest {
+  string studentId = 1;
+  repeated VectorClockMessage vectorClock = 2;
+}
+
+message CancelEnrollmentResponse {
+  ResponseCode code = 1;
+  repeated VectorClockMessage vectorClock = 2;
+}
+
+service ProfessorService {
+  rpc openEnrollments(OpenEnrollmentsRequest) returns (OpenEnrollmentsResponse);
+  rpc closeEnrollments(CloseEnrollmentsRequest) returns (CloseEnrollmentsResponse);
+  rpc listClass(ListClassRequest) returns (ListClassResponse);
+  rpc cancelEnrollment(CancelEnrollmentRequest) returns (CancelEnrollmentResponse);
+}

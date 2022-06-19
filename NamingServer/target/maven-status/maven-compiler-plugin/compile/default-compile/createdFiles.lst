@@ -1,0 +1,9 @@
+pt/ulisboa/tecnico/classes/namingserver/NamingServerServiceImpl.class
+pt/ulisboa/tecnico/classes/namingserver/ServerEntry.class
+pt/ulisboa/tecnico/classes/namingserver/ServiceEntry.class
+pt/ulisboa/tecnico/classes/namingserver/NamingServices.class
+pt/ulisboa/tecnico/classes/namingserver/Commands/LookupCommand.class
+pt/ulisboa/tecnico/classes/namingserver/Commands/DeleteCommand.class
+pt/ulisboa/tecnico/classes/namingserver/NamingServer.class
+pt/ulisboa/tecnico/classes/namingserver/Commands/RegisterCommand.class
+pt/ulisboa/tecnico/classes/namingserver/Commands/Command.class

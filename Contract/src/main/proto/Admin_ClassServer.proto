@@ -1,0 +1,50 @@
+syntax = "proto3";
+package pt.ulisboa.tecnico.classes.contract.admin;
+
+import "ClassesDefinitions.proto";
+
+message ActivateRequest {}
+
+message ActivateResponse {
+  ResponseCode code = 1;
+}
+
+message DeactivateRequest {}
+
+message DeactivateResponse {
+  ResponseCode code = 1;
+}
+
+message ActivateGossipRequest {}
+
+message ActivateGossipResponse {
+  ResponseCode code = 1;
+}
+
+message DeactivateGossipRequest {}
+
+message DeactivateGossipResponse {
+  ResponseCode code = 1;
+}
+
+message GossipRequest {}
+
+message GossipResponse {
+  ResponseCode code = 1;
+}
+
+message DumpRequest {}
+
+message DumpResponse {
+  ResponseCode code = 1;
+  ClassState classState = 2;
+}
+
+service AdminService {
+  rpc activate(ActivateRequest) returns (ActivateResponse);
+  rpc deactivate(DeactivateRequest) returns (DeactivateResponse);
+  rpc activateGossip(ActivateGossipRequest) returns (ActivateGossipResponse);
+  rpc deactivateGossip(DeactivateGossipRequest) returns (DeactivateGossipResponse);
+  rpc gossip(GossipRequest) returns (GossipResponse);
+  rpc dump(DumpRequest) returns (DumpResponse);
+}
