@@ -1,6 +1,6 @@
 <h1 align="center">Distributed Systems Project 2022</h1>
 
-This project was done by a group of 3 in 2022 with an educational purpose for the Distributed Systems lecture in Instituto Superior Técnico. The work was divided into 3 deliveries to which we ended with an overall **A grade** (17.04 in scale grade) for all deliveries together.
+This project was done by a group of 3 in 2022 with an educational purpose for the Distributed Systems lecture in Instituto Superior Técnico. The work was divided into 3 deliveries to which we ended with an overall **A grade** (17.04 out of 20) for all deliveries together.
 
 ### Team Members:
 
